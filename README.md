@@ -85,14 +85,12 @@ ibmcloud resource groups
 
 ### 4. Create Terraform Configuration
 
-Create a directory for your Terraform project:
+Clone this repository:
 
 ```bash
-mkdir docling-ibmcloud
-cd docling-ibmcloud
+git clone https://github.com/dambor/docling-terraform.git
+cd docling-terraform
 ```
-
-Save the Terraform configuration as `main.tf` (from the artifact provided).
 
 ### 5. Create `terraform.tfvars`
 
