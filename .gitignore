@@ -1,0 +1,78 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Terraform variable files (CONTAINS SENSITIVE DATA - API KEYS)
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# SSH Keys (if stored in project directory)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+docling_key
+docling_key.pub
+
+# IBM Cloud CLI config (if stored locally)
+.ibmcloud/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+.*.swp
+.*.swo
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.project
+.classpath
+.settings/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Backup files
+*.bak
+*.backup
+
+# Environment files
+.env
+.env.local
+.env.*.local
